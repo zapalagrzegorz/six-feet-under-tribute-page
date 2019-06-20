@@ -1,0 +1,72 @@
+* { 
+    margin: 0;
+  }
+  h1 {
+    padding: 0;
+  }
+  body {
+    padding: 50px 0 0 0;
+    font-family: 'Open Sans', sans-serif;	
+  }
+  #home {
+    height: 95vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.1), 
+        rgba(0, 0, 0, 0.6)
+      ), url('http://www.rirca.es/wp-content/uploads/2015/08/hearse_Six-Feet-Under_HBO.jpg') no-repeat center fixed;
+    background-size: cover;
+    background-origin: border-box;
+  }    
+  
+  div.transbox {
+  /*   display: inline-block; */
+    margin-top: 7%;
+    margin-left: 7%;
+    width: 30%;
+    background-color: rgba(0,0,0, 0.3);
+    border: 0px solid black;
+    filter: alpha(opacity=30);
+    padding: 20px;
+    border-radius: 10px
+     /* For IE8 and earlier */
+  }
+  
+  div.transbox > h1, div.transbox > h3 {
+    color: #fff;
+    opacity: 1;
+       text-shadow: 2px 2px 5px #000;
+  }
+  div.transbox > h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+  } 
+              
+  article {
+    padding: 60px 60px;
+  }
+  .bg1 {
+    background-color: #c8cdd2;
+  }
+  .bg2 {
+    background-color: #e5eef6;
+  }
+  .bg3 {
+    background-color: #bed4df;
+  }
+  .bg4 {
+    background-color: #69b0e5;
+  }
+  .bg5 {
+    background-color: #aeaeae;
+  }
+  .lastRow {
+     background-color: #c6b8ac;
+  }
+  
+  .characterDesc {
+    display: none;
+  }
+  
+  
+  /* <li class="active"> gdy hover */
+  
